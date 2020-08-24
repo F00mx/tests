@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tutorial HTML</title>
+        <title>Tutorial HTML Básico</title>
     </head>
     <body>
         <h1>Tutorial HTML en Edureka!</h1>
         <img src="img/521042.jpg" height="420" width="640" alt="Imagen de pagina">
+        <hr width="75%">
         <p>Está página es la práctica del tutorial de HTML del canal Edureka!</p>
         <h1>Este es un encabezado tamaño H1</h1>
         <h2>Este es un encabezado tamaño H2</h2>
@@ -18,6 +19,65 @@
         <strong>Texto en Negrita utilizado -strong-</strong><br>
         <big>Texto con etiqueta -big-</big><br>
         <small>Texto con etiqueta -small-</small><br>
+        <p>Enlace a la página de <a href="http://www.foo.com.mx">Foo</a></p>
+        <h1>Ejemplos de Listas</h1>
+        <h2>Lista Ordenada</h2>
+        <ol>
+            <li>Este es un elemento de lista ordenada</li>
+            <li>Este elemento numero 2 de lista ordenada</li>
+            <li>Este elemento numero 3 de lista ordenada</li>
+            <li>Este elemento numero 4 de lista ordenada</li>
+        </ol>
+        <h2>Lista no ordenada</h2>
+        <ul>
+            <li>Elemento de lista no ordenada</li>
+            <li>Elemento de lista no ordenada</li>
+            <li>Elemento de lista no ordenada</li>
+            <li>Elemento de lista no ordenada</li>
+        </ul>
+        <h1>Ejemplo de Formularios en HTML </h1>
+        <form>
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido" required><br>
+            <p>Sexo : </p>
+            <label>Hombre</label><input type="radio" name="sexo" value="h">
+            <label>Mujer</label><input type="radio" name="sexo" value="m"> <br>
+            <label>Correo Electrónico</label><input type="email" name="email" placeholder="Correo Electronico"><br>
+            <label>Estado</label>
+            <select name="estado">
+                <option value="edo1">Estado 1</option>
+                <option value="edo2">Estado 2</option>
+                <option value="edo3">Estado 3</option>
+            </select>
+            <label>Estoy de Acuerdo</label>
+            <input type="checkbox" name="ok" >
+            <button type="submit">Enviar</button>
+        </form>
+        <h1>Ejemplo de Tablas</h1>
+        <table>
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Sexo</th>
+            </thead>
+            <tr>
+                <td>Julio</td>
+                <td>Verne</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Ernest</td>
+                <td>Hemmingway</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Sor</td>
+                <td>Juana</td>
+                <td>Femenino</td>
+            </tr>
+        </table>
 
     </body>
 </html>
